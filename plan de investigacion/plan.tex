@@ -1,0 +1,86 @@
+\documentclass[12pt, a4paper,oneside]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+\usepackage{graphicx}
+
+%% Comandos para el índice general
+\renewcommand\contentsname{ÍNDICE GENERAL}
+\renewcommand{\printtoctitle}[1]{\centering\Large\bfseries #1}
+
+%% Margenes
+\setlrmarginsandblock{3cm}{2.5cm}{*}
+\setulmarginsandblock{2.5cm}{*}{1}
+\checkandfixthelayout
+
+% diseño de caratula
+
+\newcommand*{\titleASU}{\begingroup
+  \begin{center}
+    \bfseries
+    \Large
+    UNIVERSIDAD NACIONAL AGRARIA LA MOLINA
+    \DoubleSpacing
+    FACULTAD DE ECONOMÍA Y PLANIFICACION \\
+    
+    \begin{figure}[h]
+      \centering
+      \vspace{16pt}
+      \includegraphics[width=4.5cm, height=5cm]{ESCUDO}
+      \vspace{16pt}
+    \end{figure}
+  
+    \large
+    ``ANALISIS DE LOS FACTORES QUE AFECTAN LA ACEPTACIÓN TECNOLÓGICA DE LA PLATAFORMA VIRTUAL MOODLE USANDO ECUACIONES ESTRUCTURALES''
+    \vfill
+    PROYECTO PARA OPTAR EL TÍTULO DE ING. EN GESTIÓN EMPRESARIAL
+    \vfill
+    SANDRO MARCELO PEIRANO GOZALVEZ
+    \vfill
+    LA MOLINA - PERÚ \\
+    2020
+  \end{center}
+\endgroup}
+
+\title{Modelo de plan de investigación}
+\author{Sandro Marcelo Peirano Gozalvez}
+\date{Septiembre 2020}
+
+\begin{document}
+\pagestyle{empty}
+\titleASU
+\clearpage
+
+\frontmatter % numeracion romana de paginas
+\tableofcontents*
+
+
+\mainmatter % numeración arábiga de paginas
+\chapterstyle{crosshead} % estilo para capitulos
+ \renewcommand*{\chapnumfont}{\normalfont\large\bfseries}
+  \renewcommand*{\chaptitlefont}{\normalfont\large\bfseries}
+  
+\chapter{PROBLEMA DE INVESTIGACIÓN}
+hola
+
+\chapter{OBJETIVO}
+
+\chapter{JUSTIFICACIÓN}
+
+\chapter{REVISIÓN DE LITERATURA}
+
+\chapter{HIPÓTESIS}
+
+\chapter{METODOLOGÍA}
+
+\chapter{CRONOGRAMA}
+
+\chapter{PRESUPUESTO}
+
+\chapter{COLABORADORES}
+
+\chapter{BIBLIOGRAFÍA}
+
+\chapter{ANEXOS}
+
+\end{document}
